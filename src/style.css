@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --font-main-heading: "Nunito Variable", sans-serif;
+  --font-p: "Adwaita Sans", sans-serif;
+}
