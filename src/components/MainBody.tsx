@@ -1,5 +1,5 @@
-import TextSection from './TextSection.jsx';
-import Hyperlink from './Hyperlink.jsx';
+import TextSection from './TextSection.tsx';
+import Hyperlink from './Hyperlink.tsx';
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
@@ -7,7 +7,7 @@ import { IoMail } from "react-icons/io5";
 
 const MainBody = () => {
   const handleCopy = async () => {
-    await navigator.clipboard.writeText("pvl.martin@proton.me");
+    await navigator.clipboard.writeText('pvl.martin@proton.me');
   };
 
   return(
